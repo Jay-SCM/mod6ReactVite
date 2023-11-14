@@ -25,7 +25,7 @@
 
 // impot tge things
 import React, { useState } from 'react';
-import SingleCat from './SingleCat';
+import SingleCat from './SingleCat.jsx';
 // WoW big set
 const cats = [
     { id: 1, name: 'Cheetah', latinName: 'Acinonyx jubatus', image: 'cheetah.jpg' },

@@ -1,9 +1,9 @@
 
 
 import React, { useState } from 'react';
-import Greeting from './Greeting.jsx';
-import BigCats from './BigCats.jsx';
-import HAPPYSADCHANGER from './HAPPYSADCHANGER.jsx';
+import Greeting from './components/Greeting.jsx';
+import BigCats from './components/BigCats.jsx';
+import HAPPYSADCHANGER from './components/HAPPYSADCHANGER.jsx';
 import reactLogo from './assets/react.svg';
 import viteLogo from './vite.svg';
 import './App.css';

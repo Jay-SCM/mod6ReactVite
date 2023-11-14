@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import happyEmoji from './assets/happy.jpg';
-import sadEmoji from './assets/sad.jpg';
+import happyEmoji from '../assets/happy.jpg';
+import sadEmoji from '../assets/sad.jpg';
 const Emoji = () => {
     const [isHappy, setIsHappy] = useState(true);
     const toggleMood = () => {
