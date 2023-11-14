@@ -42,7 +42,7 @@ const BigCats = () => {
         setCatList(sortedList);}; // set the state to the sorted list
     const handleReverse = () => {
         const reversedList = [...catList].reverse(); // reverse tge list of cats
-        setCatList(reversedList);};
+        setCatList(reversedList);}; // set the state to the reversed list
     const handleFilterPanthera = () => {
         const pantheraList = cats.filter((cat) => cat.latinName.includes('Panthera')); // filter the list of cats
         setCatList(pantheraList);}; // set filtered state to pantheraList
