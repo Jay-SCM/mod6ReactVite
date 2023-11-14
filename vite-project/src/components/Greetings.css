@@ -1,0 +1,19 @@
+
+/* Greetings.css */
+.greeting-card {
+    background-color: #691cc9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.greeting {
+    color: blue;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
+    cursor: pointer;
+}
+.greeting:hover {
+    color: red;
+    transition: color 0.3s;
+}

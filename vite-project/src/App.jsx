@@ -1,5 +1,5 @@
 
-
+//app.jsx
 import React, { useState } from 'react';
 import Greeting from './components/Greeting.jsx';
 import BigCats from './components/BigCats.jsx';
@@ -14,7 +14,7 @@ function App() {
             <h1>Vite + React</h1>
             {/* make Greeting component */}
             <Greeting name="John" />
-            <Greeting name="Alice">laskjdf</Greeting>
+            <Greeting name="Alice">PqlawoksiejdurfhtgalskdjF</Greeting>
             <div>
                 <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">
                     <img src={viteLogo} className="logo" alt="Vite logo" />
