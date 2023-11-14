@@ -1,12 +1,11 @@
-/** @jsxImportSource @emotion/react */
+
 import React, { useState } from 'react';
-import happyEmoji from './happy.png';
-import sadEmoji from './sad.png';
+import happyEmoji from './assets/happy.jpg';
+import sadEmoji from './assets/sad.jpg';
 const Emoji = () => {
     const [isHappy, setIsHappy] = useState(true);
     const toggleMood = () => {
-        setIsHappy((prevIsHappy) => !prevIsHappy);
-    };
+        setIsHappy((prevIsHappy) => !prevIsHappy);};
     return (
         <div>
             <img
@@ -14,9 +13,6 @@ const Emoji = () => {
                 alt={isHappy ? 'Happy Emoji' : 'Sad Emoji'}
                 style={{ width: '100px', height: '100px' }}
             />
-            <button onClick={toggleMood}>Change Mood</button>
-        </div>
-    );
-};
+            <button onClick={toggleMood}>CHANGEEMOJI</button>
+        </div>);};
 export default Emoji;
-
