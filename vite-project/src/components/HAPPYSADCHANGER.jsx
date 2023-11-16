@@ -1,6 +1,8 @@
-
-
+//exercise 3
 //HAPPYSADCHANGER.jsx
+
+
+// IMPORTSSSSSSSSSSS
 import React from 'react';
 import Emoji from './Emoji.jsx';
 function HAPPYSADCHANGER() {

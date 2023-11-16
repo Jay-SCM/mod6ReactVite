@@ -1,6 +1,5 @@
-
+//---------
 //App.jsx
-
 // SoManYImPoRtS.
 import React, { useState } from 'react';
 import Greeting from './components/Greeting.jsx';

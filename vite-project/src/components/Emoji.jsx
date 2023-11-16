@@ -1,4 +1,4 @@
-//emoji.jsx
+//emoji.js
 import React, { useState } from 'react';
 import happyEmoji from '../assets/happy.jpg';
 import sadEmoji from '../assets/sad.jpg';

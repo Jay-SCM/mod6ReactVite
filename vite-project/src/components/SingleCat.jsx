@@ -1,4 +1,5 @@
 // SingleCat.jsx
+//components inside componenets
 import React from 'react';
 const SingleCat = ({ id, name, latinName, image }) => (
     <div key={id} className="single-cat">
