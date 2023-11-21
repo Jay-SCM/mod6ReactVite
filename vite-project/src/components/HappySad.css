@@ -6,3 +6,10 @@
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.ChangeBttn {
+    background-color: #d511dc;
+}
+.ChangeBttn:hover{
+    background-color: #114bdc;
+    transition: background-color 0.3s;
+}

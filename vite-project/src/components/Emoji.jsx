@@ -14,6 +14,6 @@ const Emoji = () => {
                 alt={isHappy ? 'Happy Emoji' : 'Sad Emoji'}
                 style={{ width: '100px', height: '100px' }}
             />
-            <button onClick={toggleMood}>CHANGEEMOJI</button>
+            <button className="ChangeBttn" onClick={toggleMood}>CHANGEEMOJI</button>
         </div>);};
 export default Emoji;
